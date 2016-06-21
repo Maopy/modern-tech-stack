@@ -12,15 +12,15 @@
   - Stylus 编译 CSS
 - JS
   - ES2015/ES2016...
-  - Babel 编译 JavaScript
-  - React 个人目前最喜爱的前端框架
-  - Immutable
+  - [Babel](https://babeljs.io/) 编译 JavaScript
+  - [React](http://facebook.github.io/react/) 个人目前最喜爱的前端框架
+  - [Immutable](https://facebook.github.io/immutable-js/)
 - Node
   - Koa2 面向未来的Node框架
 - 前端工程化
-  - Webpack 项目构建
+  - [Webpack](https://webpack.github.io/) 项目构建
   - Ava 新潮的单元测试框架
-  - Standard 简单美观的代码风格
+  - [standard](https://github.com/feross/standard) 简单美观的代码风格
 
 还有。。想到了再补充吧。。。
 
