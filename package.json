@@ -1,0 +1,27 @@
+{
+  "name": "modern-tech-stack",
+  "version": "0.0.1",
+  "description": "面向未来的前端技术栈",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maopy/modern-tech-stack.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Maopy/modern-tech-stack/issues"
+  },
+  "homepage": "https://github.com/Maopy/modern-tech-stack#readme",
+  "devDependencies": {
+    "eslint": "^2.13.1",
+    "standard": "^7.1.2"
+  }
+}
