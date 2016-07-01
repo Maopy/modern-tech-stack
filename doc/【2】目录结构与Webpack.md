@@ -33,6 +33,7 @@ webpack Webpack配置文件存放目录
 
 ```
 webpack
+|- paths.js 配置一些常用目录
 |- webpack.config.dev.babel.js 开发时配置
 |- webpack.config.prod.babel.js 打包时配置
 |- webpack.config.server.babel.js 打包服务端代码配置，与客户端可能执行时机不同
