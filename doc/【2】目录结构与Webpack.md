@@ -1,4 +1,4 @@
-#目录结构
+# 目录结构
 
 > 本系列文档描述的全部代码与本项目代码完全对应
 
@@ -15,6 +15,27 @@ webpack Webpack配置文件存放目录
 
 至此，一个基本的目录结构就已经建好了。随着后面加入新的框架或工具，目录结构将进一步细化。
 
-#Webpack配置
+# Webpack配置
 
-> 前端构建工具从Grunt到Gulp，依赖管理从Require到Sea，期间还面临jspm和rollup的挑战。Webpack最终淘汰了上述全部，坐上了霸主之位。不过webpack的配置却是一道很大的坎啊。。
+首先，在我们的项目中引入`Webpack2`，目前Webpack2还没有发布正式版。不过，绝大多数功能已经趋于稳定，已经可以开始使用了。
+
+```sh
+  $ npm install webpack@2.1.0-beta.15 -D
+```
+
+同时，我们引入`Babel`编译我们的代码。这样就可以在Node端和浏览器端编写同样新潮的代码了。
+
+```sh
+  $ npm install babel-core -D
+```
+
+接下来在webpack路径内创建webpack的配置文件
+
+```
+webpack
+|- webpack.config.dev.babel.js 开发时配置
+|- webpack.config.prod.babel.js 打包时配置
+|- webpack.config.server.babel.js 打包服务端代码配置，与客户端可能执行时机不同
+```
+
+`.babel.js` 的扩展名会让babel来执行这段js，这样我们在webpack配置文件里面也可以写ES6/7的代码了。
